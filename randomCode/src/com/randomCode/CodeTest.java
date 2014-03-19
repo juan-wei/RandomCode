@@ -17,12 +17,7 @@ public class CodeTest {
 		int type = Integer.parseInt(args[0]);
 		int length = Integer.parseInt(args[1]);
 		int nums = Integer.parseInt(args[2]);
-//		System.out.println("选择随机码类型：1——纯大写字母；2——纯数字；3——大写字母和数字混合");
-//		Scanner scanner = new Scanner(System.in);
-//		int type = scanner.nextInt();
-//		int length = scanner.nextInt();
-//		int nums = scanner.nextInt();
-//		scanner.close();
+
 		String typesString = null;
 		switch (type) {
 		case 1:
